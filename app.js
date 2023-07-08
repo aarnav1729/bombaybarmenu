@@ -44,7 +44,7 @@ const menu = [
     title: "aloo 65",
     category: "veg",
     price: 150,
-    img: "./images/item-6.jpeg",
+    img: "./item-6.jpeg",
     desc: `Spicy and crispy potato dish, similar to the popular Chicken 65, but made with potatoes.`,
   },
   {
@@ -52,7 +52,7 @@ const menu = [
     title: "paneer manchuria",
     category: "veg",
     price: 160,
-    img: "./images/item-7.jpeg",
+    img: "./item-7.jpeg",
     desc: `Indo-Chinese dish made with paneer (cottage cheese) cooked in a tangy and flavorful sauce.`,
   },
   {
@@ -60,7 +60,7 @@ const menu = [
     title: "veg manchuria",
     category: "veg",
     price: 150,
-    img: "./images/item-8.jpeg",
+    img: "./item-8.jpeg",
     desc: `Indo-Chinese dish made with mixed vegetables cooked in a spicy and tangy sauce.`,
   },
   {
@@ -68,7 +68,7 @@ const menu = [
     title: "veg spring roll",
     category: "veg",
     price: 150,
-    img: "./images/item-9.jpeg",
+    img: "./item-9.jpeg",
     desc: `Crispy and flavorful appetizer made with a filling of mixed vegetables wrapped in a thin spring roll pastry.`,
   },
   {
@@ -76,7 +76,7 @@ const menu = [
     title: "paneer spring roll",
     category: "veg",
     price: 160,
-    img: "./images/item-10.jpeg",
+    img: "./item-10.jpeg",
     desc: `Delicious appetizer made with a filling of paneer (cottage cheese) and mixed vegetables wrapped in a spring roll pastry.`,
   },
   {
@@ -84,7 +84,7 @@ const menu = [
     title: "crispy veg",
     category: "veg",
     price: 120,
-    img: "./images/item-11.jpeg",
+    img: "./item-11.jpeg",
     desc: `Crispy and flavorful vegetarian dish made with a variety of vegetables, coated in a light batter and deep-fried.`,
   },
   {
@@ -92,7 +92,7 @@ const menu = [
     title: "veg bullet",
     category: "veg",
     price: 120,
-    img: "./images/item-12.jpeg",
+    img: "./item-12.jpeg",
     desc: `A popular vegetarian snack made with a mixture of mashed potatoes, spices, and breadcrumbs, shaped into bullet-like rolls and deep-fried until golden and crispy.`,
   },
   {
@@ -100,7 +100,7 @@ const menu = [
     title: "onion pakoda",
     category: "veg",
     price: 120,
-    img: "./images/item-13.jpg",
+    img: "./item-13.jpeg",
     desc: `Crispy and flavorful fritters made with sliced onions, gram flour, and spices, perfect as a tea-time snack.`,
   },
   {
@@ -108,7 +108,7 @@ const menu = [
     title: "veg pakoda",
     category: "veg",
     price: 120,
-    img: "./images/item-14.jpeg",
+    img: "./item-14.jpeg",
     desc: `Assorted mixed vegetable fritters, made with a batter of gram flour and spices, served hot and crispy.`,
   },
   {
@@ -116,7 +116,7 @@ const menu = [
     title: "green peas",
     category: "veg",
     price: 120,
-    img: "./images/item-15.jpg",
+    img: "./item-15.jpeg",
     desc: `Delicious and comforting dish made with green peas cooked in a spiced tomato-based gravy.`,
   },
   {
@@ -124,7 +124,7 @@ const menu = [
     title: "special green peas",
     category: "veg",
     price: 140,
-    img: "./images/item-16.jpg",
+    img: "./item-16.jpeg",
     desc: `Exquisite preparation of green peas cooked with special spices, herbs, and a creamy sauce.`,
   },
   {
@@ -132,7 +132,7 @@ const menu = [
     title: "finger chips",
     category: "veg",
     price: 130,
-    img: "./images/item-17.jpeg",
+    img: "./item-17.jpeg",
     desc: `Classic dish of crispy and golden french fries, perfect as a snack or side dish.`,
   },
   {
@@ -140,7 +140,7 @@ const menu = [
     title: "veg cutlet",
     category: "veg",
     price: 160,
-    img: "./images/item-18.jpeg",
+    img: "./item-18.jpeg",
     desc: `Tasty and crispy cutlets made with a mix of mashed vegetables, spices, and breadcrumbs, served hot.`,
   },
   {
@@ -148,7 +148,7 @@ const menu = [
     title: "corn fry",
     category: "veg",
     price: 120,
-    img: "./images/item-19.png",
+    img: "./item-19.jpeg",
     desc: `Delicious and flavorful dish made with fried corn kernels, seasoned with spices and herbs.`,
   },
   {
@@ -156,7 +156,7 @@ const menu = [
     title: "crispy corn",
     category: "veg",
     price: 170,
-    img: "./images/item-20.png",
+    img: "./item-20.jpeg",
     desc: `Crispy and crunchy corn dish, coated with a flavorful seasoning and fried until golden brown.`,
   },
   {
@@ -164,7 +164,7 @@ const menu = [
     title: "masala papad",
     category: "veg",
     price: 28,
-    img: "./images/item-21.png",
+    img: "./item-21.jpeg",
     desc: `Crispy papad topped with a tangy and spicy mixture of onions, tomatoes, and spices, served as an appetizer.`,
   },
   {
@@ -172,7 +172,7 @@ const menu = [
     title: "roast papad",
     category: "veg",
     price: 22,
-    img: "./images/item-22.png",
+    img: "./item-22.jpeg",
     desc: `Roasted papad served as a crunchy and savory accompaniment to meals, perfect for adding a touch of crispiness.`,
   },
   {
@@ -180,7 +180,7 @@ const menu = [
     title: "green salad",
     category: "veg",
     price: 45,
-    img: "./images/item-23.png",
+    img: "./item-23.jpeg",
     desc: `A refreshing and nutritious salad made with a variety of fresh green vegetables, perfect for a healthy meal.`,
   },
   {
@@ -188,7 +188,7 @@ const menu = [
     title: "chicken masala",
     category: "chicken",
     price: 200,
-    img: "./images/item-24.png",
+    img: "./item-24.jpeg",
     desc: `Delicious chicken cooked in a flavorful masala sauce.`,
   },  
   {
@@ -196,7 +196,7 @@ const menu = [
     title: "chicken palak",
     category: "chicken",
     price: 200,
-    img: "./images/item-25.png",
+    img: "./item-25.jpeg",
     desc: `Tender chicken cooked with spinach in a delectable blend of spices.`,
   },
   {
@@ -204,7 +204,7 @@ const menu = [
     title: "punjabi chicken",
     category: "chicken",
     price: 200,
-    img: "./images/item-26.png",
+    img: "./item-26.jpeg",
     desc: `Traditional Punjabi-style chicken curry with rich and aromatic flavors.`,
   },
   {
@@ -212,7 +212,7 @@ const menu = [
     title: "special chicken",
     category: "chicken",
     price: 200,
-    img: "./images/item-27.png",
+    img: "./item-27.jpeg",
     desc: `A special chicken dish prepared with a unique blend of spices.`,
   },
   {
@@ -220,7 +220,7 @@ const menu = [
     title: "chicken tikka butter masala",
     category: "chicken",
     price: 200,
-    img: "./images/item-28.png",
+    img: "./item-28.jpeg",
     desc: `Tender chicken tikka cooked in a creamy and buttery tomato-based sauce.`,
   },
   {
@@ -228,7 +228,7 @@ const menu = [
     title: "butter chicken boneless",
     category: "chicken",
     price: 200,
-    img: "./images/item-29.png",
+    img: "./item-29.jpeg",
     desc: `Boneless chicken cooked in a rich and creamy butter sauce.`,
   },
   {
@@ -236,7 +236,7 @@ const menu = [
     title: "butter chicken with bones",
     category: "chicken",
     price: 200,
-    img: "./images/item-30.png",
+    img: "./item-30.jpeg",
     desc: `Chicken with bones cooked in a luscious and flavorful butter sauce.`,
   },
   {
@@ -244,7 +244,7 @@ const menu = [
     title: "ginger chicken boneless",
     category: "chicken",
     price: 200,
-    img: "./images/item-31.png",
+    img: "./item-31.jpeg",
     desc: `Boneless chicken cooked with ginger and spices for a delicious flavor.`,
   },
   {
@@ -252,7 +252,7 @@ const menu = [
     title: "ginger chicken with bones",
     category: "chicken",
     price: 200,
-    img: "./images/item-32.png",
+    img: "./item-32.jpeg",
     desc: `Chicken with bones cooked with ginger and spices for a delightful taste.`,
   },
   {
@@ -260,7 +260,7 @@ const menu = [
     title: "chicken gravy",
     category: "chicken",
     price: 200,
-    img: "./images/item-33.png",
+    img: "./item-33.jpeg",
     desc: `Tender and succulent chicken cooked in a flavorful and savory gravy.`,
   },
   {
@@ -268,7 +268,7 @@ const menu = [
     title: "mutton punjabi",
     category: "mutton",
     price: 200,
-    img: "./images/item-34.png",
+    img: "./item-34.jpeg",
     desc: `Traditional Punjabi-style mutton curry with rich and aromatic flavors.`,
   },
   {
@@ -276,7 +276,7 @@ const menu = [
     title: "mutton masala",
     category: "mutton",
     price: 200,
-    img: "./images/item-35.png",
+    img: "./item-35.jpeg",
     desc: `Tender mutton cooked in a flavorful masala sauce.`,
   },
   {
@@ -284,7 +284,7 @@ const menu = [
     title: "mutton saag",
     category: "mutton",
     price: 200,
-    img: "./images/item-36.png",
+    img: "./item-36.jpeg",
     desc: `Succulent mutton cooked with spinach in a delectable blend of spices.`,
   },
   {
@@ -292,7 +292,7 @@ const menu = [
     title: "special mutton",
     category: "mutton",
     price: 200,
-    img: "./images/item-37.png",
+    img: "./item-37.jpeg",
     desc: `A special mutton dish prepared with a unique blend of spices.`,
   },
   {
@@ -300,7 +300,7 @@ const menu = [
     title: "ginger mutton",
     category: "mutton",
     price: 200,
-    img: "./images/item-38.png",
+    img: "./item-38.jpeg",
     desc: `Mutton cooked with ginger and spices for a delicious flavor.`,
   },
   {
@@ -308,7 +308,7 @@ const menu = [
     title: "keema mutton",
     category: "mutton",
     price: 200,
-    img: "./images/item-39.png",
+    img: "./item-39.jpeg",
     desc: `Minced mutton cooked to perfection with a medley of spices.`,
   },
   {
@@ -316,7 +316,7 @@ const menu = [
     title: "nargis kofta fry",
     category: "mutton",
     price: 200,
-    img: "./images/item-40.png",
+    img: "./item-40.jpeg",
     desc: `Fried mutton kofta balls made with a flavorful stuffing.`,
   },
   {
@@ -324,7 +324,7 @@ const menu = [
     title: "keema fry",
     category: "mutton",
     price: 200,
-    img: "./images/item-41.png",
+    img: "./item-41.jpeg",
     desc: `Spicy and aromatic fried minced mutton dish.`,
   },
   {
@@ -332,7 +332,7 @@ const menu = [
     title: "keema masala fry",
     category: "mutton",
     price: 200,
-    img: "./images/item-42.png",
+    img: "./item-42.jpeg",
     desc: `Fried minced mutton cooked in a rich and spicy masala.`,
   },
   {
@@ -340,7 +340,7 @@ const menu = [
     title: "kidney masala",
     category: "mutton",
     price: 200,
-    img: "./images/item-43.png",
+    img: "./item-43.jpeg",
     desc: `Savory and spicy kidney masala made with tender mutton kidneys.`,
   },
   {
@@ -348,7 +348,7 @@ const menu = [
     title: "kidney roast",
     category: "mutton",
     price: 200,
-    img: "./images/item-44.png",
+    img: "./item-44.jpeg",
     desc: `Roasted mutton kidneys with aromatic spices and flavors.`,
   },
   {
@@ -356,7 +356,7 @@ const menu = [
     title: "liver masala",
     category: "mutton",
     price: 200,
-    img: "./images/item-45.png",
+    img: "./item-45.jpeg",
     desc: `Spicy and flavorful mutton liver masala.`,
   },
   {
@@ -364,7 +364,7 @@ const menu = [
     title: "liver fry",
     category: "mutton",
     price: 200,
-    img: "./images/item-46.png",
+    img: "./item-46.jpeg",
     desc: `Fried mutton liver with a perfect balance of spices.`,
   },
   {
@@ -372,7 +372,7 @@ const menu = [
     title: "brain fry",
     category: "mutton",
     price: 200,
-    img: "./images/item-47.png",
+    img: "./item-47.jpeg",
     desc: `Deliciously spiced and fried mutton brain.`,
   },
   {
@@ -380,7 +380,7 @@ const menu = [
     title: "brain masala",
     category: "mutton",
     price: 200,
-    img: "./images/item-48.png",
+    img: "./item-48.jpeg",
     desc: `Mutton brain cooked in a flavorful and spicy masala sauce.`,
   },
   {
@@ -388,7 +388,7 @@ const menu = [
     title: "brain pakoda",
     category: "mutton",
     price: 200,
-    img: "./images/item-49.png",
+    img: "./item-49.jpeg",
     desc: `Crispy and tasty pakodas made with mutton brain.`,
   },
   {
@@ -396,7 +396,7 @@ const menu = [
     title: "ginger fish",
     category: "seafood",
     price: 200,
-    img: "./images/item-50.png",
+    img: "./item-50.jpeg",
     desc: `Fish cooked with ginger and spices for a delightful flavor.`,
   },
   {
@@ -404,7 +404,7 @@ const menu = [
     title: "fish curry",
     category: "seafood",
     price: 200,
-    img: "./images/item-51.png",
+    img: "./item-51.jpeg",
     desc: `Traditional fish curry made with a blend of aromatic spices.`,
   },
   {
@@ -412,7 +412,7 @@ const menu = [
     title: "fish tikka masala",
     category: "seafood",
     price: 200,
-    img: "./images/item-52.png",
+    img: "./item-52.jpeg",
     desc: `Tender fish tikka cooked in a rich and creamy masala sauce.`,
   },
   {
@@ -420,7 +420,7 @@ const menu = [
     title: "ginger prawns",
     category: "seafood",
     price: 200,
-    img: "./images/item-53.png",
+    img: "./item-53.jpeg",
     desc: `Prawns cooked with ginger and spices for a delicious flavor.`,
   },
   {
@@ -428,7 +428,7 @@ const menu = [
     title: "prawns curry",
     category: "seafood",
     price: 200,
-    img: "./images/item-54.png",
+    img: "./item-54.jpeg",
     desc: `Authentic prawns curry with a perfect blend of spices and flavors.`,
   },
   {
@@ -436,7 +436,7 @@ const menu = [
     title: "prawns fry",
     category: "seafood",
     price: 200,
-    img: "./images/item-55.png",
+    img: "./item-55.jpeg",
     desc: `Crispy and spicy fried prawns that are perfect as an appetizer.`,
   },
   {
@@ -444,7 +444,7 @@ const menu = [
     title: "loose prawns",
     category: "seafood",
     price: 200,
-    img: "./images/item-56.png",
+    img: "./item-56.jpeg",
     desc: `Tender and succulent prawns cooked in a delicious sauce.`,
   },
   {
@@ -452,7 +452,7 @@ const menu = [
     title: "prawns pakoda",
     category: "seafood",
     price: 200,
-    img: "./images/item-57.png",
+    img: "./item-57.jpeg",
     desc: `Crunchy and flavorful pakodas made with juicy prawns.`,
   },
   {
@@ -460,7 +460,7 @@ const menu = [
     title: "chilly prawns",
     category: "seafood",
     price: 200,
-    img: "./images/item-58.png",
+    img: "./item-58.jpeg",
     desc: `Spicy and tangy prawns stir-fried with peppers and spices.`,
   },
   {
@@ -468,7 +468,7 @@ const menu = [
     title: "chilli fish",
     category: "seafood",
     price: 200,
-    img: "./images/item-59.png",
+    img: "./item-59.jpeg",
     desc: `Fish cooked with peppers and spices for a fiery and flavorful dish.`,
   },
   {
@@ -476,7 +476,7 @@ const menu = [
     title: "apollo fish",
     category: "seafood",
     price: 200,
-    img: "./images/item-60.png",
+    img: "./item-60.jpeg",
     desc: `A popular Andhra-style fish preparation with a unique blend of spices.`,
   },
   {
@@ -484,7 +484,7 @@ const menu = [
     title: "fish finger",
     category: "seafood",
     price: 200,
-    img: "./images/item-61.png",
+    img: "./item-61.jpeg",
     desc: `Crispy and breaded fish fingers that make a perfect snack.`,
   },
   {
@@ -492,7 +492,7 @@ const menu = [
     title: "fish 65",
     category: "seafood",
     price: 200,
-    img: "./images/item-62.png",
+    img: "./item-62.jpeg",
     desc: `Spicy and tangy deep-fried fish, seasoned with aromatic spices.`,
   },
   {
@@ -500,7 +500,7 @@ const menu = [
     title: "fish fry",
     category: "seafood",
     price: 200,
-    img: "./images/item-63.png",
+    img: "./item-63.jpeg",
     desc: `Crispy and flavorful fried fish that is perfect as a main course.`,
   },
   {
@@ -508,7 +508,7 @@ const menu = [
     title: "tandoori platter",
     category: "tandoori",
     price: 300,
-    img: "./images/item-64.png",
+    img: "./item-64.mov",
     desc: `Assortment of tandoori delicacies including chicken, fish, and paneer.`,
   },
   {
@@ -516,7 +516,7 @@ const menu = [
     title: "tandoori chicken",
     category: "tandoori",
     price: 300,
-    img: "./images/item-65.png",
+    img: "./item-65.jpeg",
     desc: `Classic tandoori chicken marinated in yogurt and spices, grilled to perfection.`,
   },
   {
@@ -524,7 +524,7 @@ const menu = [
     title: "tandoori chicken 1 pc",
     category: "tandoori",
     price: 300,
-    img: "./images/item-66.png",
+    img: "./item-65.jpeg",
     desc: `Single piece of succulent tandoori chicken, marinated and grilled with care.`,
   },
   {
@@ -532,7 +532,7 @@ const menu = [
     title: "tangdi 65",
     category: "tandoori",
     price: 300,
-    img: "./images/item-67.png",
+    img: "./item-67.jpeg",
     desc: `Spicy and tangy grilled chicken drumsticks with a flavorful coating.`,
   },
   {
@@ -540,7 +540,7 @@ const menu = [
     title: "chicken malai tikka",
     category: "tandoori",
     price: 300,
-    img: "./images/item-68.png",
+    img: "./item-68.jpeg",
     desc: `Creamy and tender chicken tikka marinated in a rich malai (cream) sauce.`,
   },
   {
@@ -548,7 +548,7 @@ const menu = [
     title: "garlic kebab",
     category: "tandoori",
     price: 300,
-    img: "./images/item-69.png",
+    img: "./item-69.jpeg",
     desc: `Delicious and aromatic kebabs infused with the flavors of garlic.`,
   },
   {
@@ -556,7 +556,7 @@ const menu = [
     title: "banjara kebab",
     category: "tandoori",
     price: 300,
-    img: "./images/item-70.png",
+    img: "./item-70.jpeg",
     desc: `Spicy and succulent kebabs with a smoky flavor, inspired by traditional Banjara cuisine.`,
   },
   {
@@ -564,7 +564,7 @@ const menu = [
     title: "chicken tikka",
     category: "tandoori",
     price: 300,
-    img: "./images/item-71.png",
+    img: "./item-71.jpeg",
     desc: `Tender and flavorful boneless chicken pieces marinated and grilled to perfection.`,
   },
   {
@@ -572,7 +572,7 @@ const menu = [
     title: "tangdi kebab",
     category: "tandoori",
     price: 300,
-    img: "./images/item-72.png",
+    img: "./item-72.jpeg",
     desc: `Grilled chicken drumsticks marinated in a flavorful blend of spices.`,
   },
   {
@@ -580,7 +580,7 @@ const menu = [
     title: "tangdi kebab 1 pc",
     category: "tandoori",
     price: 300,
-    img: "./images/item-73.png",
+    img: "./item-72.jpeg",
     desc: `Individual chicken drumstick kebab, perfectly seasoned and grilled.`,
   },
   {
@@ -588,7 +588,7 @@ const menu = [
     title: "fish tikka",
     category: "tandoori",
     price: 300,
-    img: "./images/item-74.png",
+    img: "./item-74.jpeg",
     desc: `Deliciously marinated and grilled fish chunks with aromatic spices.`,
   },
   {
@@ -596,7 +596,7 @@ const menu = [
     title: "paneer tikka",
     category: "tandoori",
     price: 300,
-    img: "./images/item-75.png",
+    img: "./item-75.jpeg",
     desc: `Juicy and marinated paneer (cottage cheese) cubes grilled to perfection.`,
   },
   {
@@ -604,7 +604,7 @@ const menu = [
     title: "paneer garlic tikka",
     category: "tandoori",
     price: 300,
-    img: "./images/item-76.png",
+    img: "./item-76.jpeg",
     desc: `Paneer tikka infused with the flavors of garlic for a delightful twist.`,
   },
   {
@@ -612,7 +612,7 @@ const menu = [
     title: "paneer ginger tikka",
     category: "tandoori",
     price: 300,
-    img: "./images/item-77.png",
+    img: "./item-77.jpeg",
     desc: `Paneer tikka marinated with a zingy blend of ginger and spices.`,
   },
   {
@@ -620,7 +620,7 @@ const menu = [
     title: "paneer malai tikka",
     category: "tandoori",
     price: 300,
-    img: "./images/item-78.png",
+    img: "./item-78.jpeg",
     desc: `Creamy and succulent paneer tikka marinated in a rich malai (cream) sauce.`,
   },
   {
@@ -628,7 +628,7 @@ const menu = [
     title: "egg spring roll",
     category: "egg",
     price: 180,
-    img: "./images/item-79.png",
+    img: "./item-79.jpeg",
     desc: `Crispy spring rolls filled with delicious egg filling.`,
   },
   {
@@ -636,7 +636,7 @@ const menu = [
     title: "special boiled egg",
     category: "egg",
     price: 180,
-    img: "./images/item-80.png",
+    img: "./item-80.jpeg",
     desc: `Perfectly boiled eggs seasoned with special spices and flavors.`,
   },
   {
@@ -644,7 +644,7 @@ const menu = [
     title: "boiled egg",
     category: "egg",
     price: 180,
-    img: "./images/item-81.png",
+    img: "./item-81.jpeg",
     desc: `Simple and classic boiled eggs, a nutritious and filling snack.`,
   },
   {
@@ -652,7 +652,7 @@ const menu = [
     title: "egg pakoda",
     category: "egg",
     price: 180,
-    img: "./images/item-82.png",
+    img: "./item-82.jpeg",
     desc: `Crispy and spicy fritters made with egg and gram flour batter.`,
   },
   {
@@ -660,7 +660,7 @@ const menu = [
     title: "egg burjee",
     category: "egg",
     price: 180,
-    img: "./images/item-83.png",
+    img: "./item-83.jpeg",
     desc: `Scrambled eggs cooked with onions, tomatoes, and spices.`,
   },
   {
@@ -668,7 +668,7 @@ const menu = [
     title: "omelette",
     category: "egg",
     price: 180,
-    img: "./images/item-84.png",
+    img: "./item-84.jpeg",
     desc: `Classic omelette made with beaten eggs and a choice of fillings.`,
   },
   {
@@ -676,7 +676,7 @@ const menu = [
     title: "half fry",
     category: "egg",
     price: 180,
-    img: "./images/item-85.png",
+    img: "./item-85.jpeg",
     desc: `Eggs fried with a runny yolk, perfect for dipping with toast.`,
   },
   {
@@ -684,7 +684,7 @@ const menu = [
     title: "egg 65",
     category: "egg",
     price: 180,
-    img: "./images/item-86.png",
+    img: "./item-86.jpeg",
     desc: `Spicy and tangy deep-fried eggs, seasoned with aromatic spices.`,
   },
   {
@@ -692,7 +692,7 @@ const menu = [
     title: "egg manchuria",
     category: "egg",
     price: 180,
-    img: "./images/item-87.png",
+    img: "./item-87.jpeg",
     desc: `Indo-Chinese style egg fritters cooked in a tangy and spicy sauce.`,
   },
   {
@@ -700,7 +700,7 @@ const menu = [
     title: "egg chilly",
     category: "egg",
     price: 180,
-    img: "./images/item-88.png",
+    img: "./item-88.jpeg",
     desc: `Eggs cooked with onions, bell peppers, and spices for a flavorful dish.`,
   },
   {
@@ -708,7 +708,7 @@ const menu = [
     title: "egg curry",
     category: "egg",
     price: 180,
-    img: "./images/item-89.png",
+    img: "./item-89.jpeg",
     desc: `Aromatic and rich curry made with boiled eggs in a spiced tomato-based gravy.`,
   },
   {
@@ -716,7 +716,7 @@ const menu = [
     title: "phulka",
     category: "roti",
     price: 50,
-    img: "./images/item-90.png",
+    img: "./item-90.jpeg",
     desc: `Thin and soft Indian bread made from whole wheat flour.`,
   },
   {
@@ -724,7 +724,7 @@ const menu = [
     title: "chapati",
     category: "roti",
     price: 50,
-    img: "./images/item-91.png",
+    img: "./item-91.jpeg",
     desc: `Thin unleavened bread made from whole wheat flour, a staple in Indian cuisine.`,
   },
   {
@@ -732,7 +732,7 @@ const menu = [
     title: "roti",
     category: "roti",
     price: 50,
-    img: "./images/item-92.png",
+    img: "./item-92.jpeg",
     desc: `Round and wholesome bread made from whole wheat flour.`,
   },
   {
@@ -740,7 +740,7 @@ const menu = [
     title: "naan",
     category: "roti",
     price: 50,
-    img: "./images/item-93.png",
+    img: "./item-93.jpeg",
     desc: `Soft and fluffy leavened bread, typically cooked in a tandoor (clay oven).`,
   },
   {
@@ -748,7 +748,7 @@ const menu = [
     title: "butter naan",
     category: "roti",
     price: 50,
-    img: "./images/item-94.png",
+    img: "./item-94.jpeg",
     desc: `Naan bread topped with melted butter for a rich and flavorful taste.`,
   },
   {
@@ -756,7 +756,7 @@ const menu = [
     title: "tandoor paratha",
     category: "roti",
     price: 50,
-    img: "./images/item-95.png",
+    img: "./item-95.jpeg",
     desc: `Flaky and layered bread cooked in a tandoor for a delightful texture.`,
   },
   {
@@ -764,7 +764,7 @@ const menu = [
     title: "ghee roti",
     category: "roti",
     price: 50,
-    img: "./images/item-96.png",
+    img: "./item-96.jpeg",
     desc: `Roti made with clarified butter (ghee) for a rich and aromatic flavor.`,
   },
   {
@@ -772,7 +772,7 @@ const menu = [
     title: "ghee chapati",
     category: "roti",
     price: 50,
-    img: "./images/item-97.png",
+    img: "./item-97.jpeg",
     desc: `Chapati made with clarified butter (ghee) for a delicious and indulgent taste.`,
   },
   {
@@ -780,7 +780,7 @@ const menu = [
     title: "oil paratha",
     category: "roti",
     price: 50,
-    img: "./images/item-98.png",
+    img: "./item-98.jpeg",
     desc: `Paratha made with oil for a softer and flakier texture.`,
   },
   {
@@ -788,7 +788,7 @@ const menu = [
     title: "aloo paratha",
     category: "roti",
     price: 50,
-    img: "./images/item-99.png",
+    img: "./item-99.jpeg",
     desc: `Flavorful paratha stuffed with a spiced potato filling.`,
   },
   {
@@ -796,7 +796,7 @@ const menu = [
     title: "gobi paratha",
     category: "roti",
     price: 50,
-    img: "./images/item-100.png",
+    img: "./item-100.jpeg",
     desc: `Paratha filled with a delicious spiced cauliflower (gobi) mixture.`,
   },
   {
@@ -804,7 +804,7 @@ const menu = [
     title: "pudina paratha",
     category: "roti",
     price: 50,
-    img: "./images/item-101.png",
+    img: "./item-101.jpeg",
     desc: `Paratha flavored with fresh mint leaves for a refreshing taste.`,
   },
   {
@@ -812,7 +812,7 @@ const menu = [
     title: "paneer paratha",
     category: "roti",
     price: 50,
-    img: "./images/item-102.png",
+    img: "./item-102.jpeg",
     desc: `Paratha stuffed with a flavorful cottage cheese (paneer) filling.`,
   },
   {
@@ -820,7 +820,7 @@ const menu = [
     title: "kheema naan",
     category: "roti",
     price: 50,
-    img: "./images/item-103.png",
+    img: "./item-103.jpeg",
     desc: `Naan bread filled with a delicious minced meat (kheema) mixture.`,
   },
   {
@@ -828,7 +828,7 @@ const menu = [
     title: "paneer butter masala",
     category: "veg",
     price: 200,
-    img: "./images/item-104.png",
+    img: "./item-104.jpeg",
     desc: `Soft and creamy paneer (cottage cheese) cooked in a rich and buttery tomato-based gravy.`,
   },
   {
@@ -836,7 +836,7 @@ const menu = [
     title: "palak paneer",
     category: "veg",
     price: 200,
-    img: "./images/item-105.png",
+    img: "./item-105.jpeg",
     desc: `Paneer (cottage cheese) cooked with spinach in a flavorful and nutritious gravy.`,
   },
   {
@@ -844,7 +844,7 @@ const menu = [
     title: "paneer tikka masala",
     category: "veg",
     price: 200,
-    img: "./images/item-106.png",
+    img: "./item-106.jpeg",
     desc: `Grilled paneer (cottage cheese) cubes cooked in a creamy and spicy tomato-based sauce.`,
   },
   {
@@ -852,7 +852,7 @@ const menu = [
     title: "ginger paneer",
     category: "veg",
     price: 200,
-    img: "./images/item-107.png",
+    img: "./item-107.jpeg",
     desc: `Paneer (cottage cheese) cooked with ginger and spices for a delightful flavor.`,
   },
   {
@@ -860,7 +860,7 @@ const menu = [
     title: "kaju paneer",
     category: "veg",
     price: 200,
-    img: "./images/item-108.png",
+    img: "./item-108.jpeg",
     desc: `Paneer (cottage cheese) cooked with cashews and a blend of aromatic spices.`,
   },
   {
@@ -868,7 +868,7 @@ const menu = [
     title: "veg malai kofta",
     category: "veg",
     price: 200,
-    img: "./images/item-109.png",
+    img: "./item-109.jpeg",
     desc: `Soft and creamy vegetable dumplings served in a rich and creamy gravy.`,
   },
   {
@@ -876,7 +876,7 @@ const menu = [
     title: "mixed veg curry",
     category: "veg",
     price: 200,
-    img: "./images/item-110.png",
+    img: "./item-110.jpeg",
     desc: `Assorted vegetables cooked in a flavorful and spiced curry sauce.`,
   },
   {
@@ -884,7 +884,7 @@ const menu = [
     title: "aloo mutter",
     category: "veg",
     price: 200,
-    img: "./images/item-111.png",
+    img: "./item-111.jpeg",
     desc: `A classic Indian dish made with potatoes (aloo) and peas (mutter) in a spiced gravy.`,
   },
   {
@@ -892,7 +892,7 @@ const menu = [
     title: "ginger veg",
     category: "veg",
     price: 200,
-    img: "./images/item-112.png",
+    img: "./item-112.jpeg",
     desc: `Mixed vegetables cooked with ginger and spices for a flavorful and aromatic dish.`,
   },
   {
@@ -900,7 +900,7 @@ const menu = [
     title: "gobi masala",
     category: "veg",
     price: 200,
-    img: "./images/item-113.png",
+    img: "./item-113.jpeg",
     desc: `Cauliflower florets cooked in a spicy and flavorful masala sauce.`,
   },
   {
@@ -908,7 +908,7 @@ const menu = [
     title: "paneer burjee",
     category: "veg",
     price: 200,
-    img: "./images/item-114.png",
+    img: "./item-114.jpeg",
     desc: `Scrambled paneer (cottage cheese) cooked with onions, tomatoes, and spices.`,
   },
   {
@@ -916,7 +916,7 @@ const menu = [
     title: "dal makhani",
     category: "veg",
     price: 200,
-    img: "./images/item-115.png",
+    img: "./item-115.jpeg",
     desc: `A rich and creamy lentil dish made with black lentils, kidney beans, and aromatic spices.`,
   },
   {
@@ -924,7 +924,7 @@ const menu = [
     title: "dal fry",
     category: "veg",
     price: 200,
-    img: "./images/item-116.png",
+    img: "./item-116.jpeg",
     desc: `Tempting and flavorful lentil dish made with lentils, onions, tomatoes, and spices.`,
   },
   {
@@ -932,7 +932,7 @@ const menu = [
     title: "stuffed tomato",
     category: "veg",
     price: 200,
-    img: "./images/item-117.png",
+    img: "./item-117.jpeg",
     desc: `Tomato stuffed with a delicious filling of spices, vegetables, and paneer.`,
   },
   {
@@ -940,7 +940,7 @@ const menu = [
     title: "aloo palak",
     category: "veg",
     price: 200,
-    img: "./images/item-118.png",
+    img: "./item-118.jpeg",
     desc: `Potatoes (aloo) cooked with spinach (palak) in a flavorful and nutritious gravy.`,
   },
   {
@@ -948,7 +948,7 @@ const menu = [
     title: "plain palak",
     category: "veg",
     price: 200,
-    img: "./images/item-119.png",
+    img: "./item-119.jpeg",
     desc: `A simple and nutritious dish made with spinach (palak) cooked with mild spices.`,
   },
   {
@@ -956,7 +956,7 @@ const menu = [
     title: "mixed raita",
     category: "veg",
     price: 200,
-    img: "./item-120.png",
+    img: "./item-120.jpeg",
     desc: `Refreshing yogurt-based side dish with a mix of diced vegetables and spices.`,
   },
   {
@@ -964,7 +964,7 @@ const menu = [
     title: "curd",
     category: "veg",
     price: 200,
-    img: "./item-121.png",
+    img: "./item-121.jpeg",
     desc: `Plain yogurt, a cooling and nutritious accompaniment to any meal.`,
   },
   {
@@ -972,7 +972,7 @@ const menu = [
     title: "chicken biryani",
     category: "biryani",
     price: 300,
-    img: "./item-122.png",
+    img: "./item-122.jpeg",
     desc: `Aromatic and flavorful rice dish cooked with succulent chicken pieces and fragrant spices.`,
   },
   {
@@ -980,7 +980,7 @@ const menu = [
     title: "mutton dum biryani",
     category: "biryani",
     price: 300,
-    img: "./item-123.png",
+    img: "./item-123.jpeg",
     desc: `Traditional dum-style biryani made with tender mutton, fragrant rice, and aromatic spices.`,
   },
   {
@@ -988,7 +988,7 @@ const menu = [
     title: "special chicken biryani",
     category: "biryani",
     price: 300,
-    img: "./item-124.png",
+    img: "./item-124.jpeg",
     desc: `Exquisite and flavorful chicken biryani prepared with special spices and premium ingredients.`,
   },
   {
@@ -996,7 +996,7 @@ const menu = [
     title: "chicken tikka biryani",
     category: "biryani",
     price: 300,
-    img: "./item-125.png",
+    img: "./item-125.jpeg",
     desc: `Delicious biryani made with marinated and grilled chicken tikka, layered with fragrant rice.`,
   },
   {
@@ -1004,7 +1004,7 @@ const menu = [
     title: "special mutton biryani",
     category: "biryani",
     price: 300,
-    img: "./item-126.png",
+    img: "./item-126.jpeg",
     desc: `Delectable mutton biryani prepared with special spices, tender meat, and fragrant rice.`,
   },
   {
@@ -1012,7 +1012,7 @@ const menu = [
     title: "kheema biryani",
     category: "biryani",
     price: 300,
-    img: "./item-127.png",
+    img: "./item-127.jpeg",
     desc: `Flavorful biryani made with spiced minced meat (kheema) and aromatic rice.`,
   },
   {
@@ -1020,7 +1020,7 @@ const menu = [
     title: "prawns biryani",
     category: "biryani",
     price: 300,
-    img: "./item-128.png",
+    img: "./item-128.jpeg",
     desc: `Irresistible biryani prepared with succulent prawns, fragrant rice, and aromatic spices.`,
   },
   {
@@ -1028,7 +1028,7 @@ const menu = [
     title: "fish biryani",
     category: "biryani",
     price: 300,
-    img: "./item-129.png",
+    img: "./item-129.jpeg",
     desc: `Delicious biryani made with flavorful fish pieces, fragrant rice, and aromatic spices.`,
   },
   {
@@ -1036,7 +1036,7 @@ const menu = [
     title: "egg biryani",
     category: "biryani",
     price: 300,
-    img: "./item-130.png",
+    img: "./item-130.jpeg",
     desc: `Scrumptious biryani made with hard-boiled eggs, fragrant rice, and a blend of spices.`,
   },
   {
@@ -1044,7 +1044,7 @@ const menu = [
     title: "special fish biryani",
     category: "biryani",
     price: 300,
-    img: "./item-131.png",
+    img: "./item-131.jpeg",
     desc: `Exquisite biryani made with special fish pieces, fragrant rice, and a flavorful spice mix.`,
   },
   {
@@ -1052,7 +1052,7 @@ const menu = [
     title: "mixed fried rice",
     category: "biryani",
     price: 300,
-    img: "./item-132.png",
+    img: "./item-132.jpeg",
     desc: `Assorted vegetables and rice stir-fried with spices for a delicious and satisfying meal.`,
   },
   {
@@ -1060,7 +1060,7 @@ const menu = [
     title: "chicken fried rice",
     category: "biryani",
     price: 300,
-    img: "./item-133.png",
+    img: "./item-133.jpeg",
     desc: `Classic fried rice made with tender chicken pieces, mixed vegetables, and aromatic spices.`,
   },
   {
@@ -1068,7 +1068,7 @@ const menu = [
     title: "paneer tikka biryani",
     category: "biryani",
     price: 300,
-    img: "./item-134.png",
+    img: "./item-134.jpeg",
     desc: `Flavorful biryani made with marinated paneer tikka, fragrant rice, and a blend of spices.`,
   },
   {
@@ -1076,7 +1076,7 @@ const menu = [
     title: "veg biryani",
     category: "biryani",
     price: 300,
-    img: "./item-135.png",
+    img: "./item-135.jpeg",
     desc: `Delicious biryani made with assorted vegetables, fragrant rice, and a blend of aromatic spices.`,
   },
   {
@@ -1084,7 +1084,7 @@ const menu = [
     title: "veg pulao",
     category: "biryani",
     price: 300,
-    img: "./item-136.png",
+    img: "./item-136.jpeg",
     desc: `Flavorful rice dish cooked with a mix of vegetables, fragrant spices, and aromatic herbs.`,
   },
   {
@@ -1092,7 +1092,7 @@ const menu = [
     title: "biryani rice",
     category: "biryani",
     price: 300,
-    img: "./item-137.png",
+    img: "./item-137.jpeg",
     desc: `Fragrant and long-grain rice used as the base for various biryani dishes.`,
   },
   {
@@ -1100,7 +1100,7 @@ const menu = [
     title: "jeera rice",
     category: "biryani",
     price: 300,
-    img: "./item-138.png",
+    img: "./item-138.jpeg",
     desc: `Basmati rice cooked with cumin seeds, giving it a distinct and aromatic flavor.`,
   },
   {
@@ -1108,7 +1108,7 @@ const menu = [
     title: "palak rice",
     category: "biryani",
     price: 300,
-    img: "./item-139.png",
+    img: "./item-139.jpeg",
     desc: `Rice cooked with spinach (palak), resulting in a vibrant and nutritious dish.`,
   },
   {
@@ -1116,7 +1116,7 @@ const menu = [
     title: "dal rice",
     category: "biryani",
     price: 300,
-    img: "./item-140.png",
+    img: "./item-140.jpeg",
     desc: `Combination of lentils (dal) and rice, a comforting and wholesome meal.`,
   },
   {
@@ -1124,7 +1124,7 @@ const menu = [
     title: "curd rice",
     category: "biryani",
     price: 300,
-    img: "./item-141.png",
+    img: "./item-141.jpeg",
     desc: `Rice mixed with yogurt (curd), tempered with spices and often accompanied by pickles.`,
   },
   {
@@ -1132,7 +1132,7 @@ const menu = [
     title: "steamed rice",
     category: "biryani",
     price: 300,
-    img: "./item-142.png",
+    img: "./item-142.jpeg",
     desc: `Simple and plain boiled rice, a versatile accompaniment to many dishes.`,
   },
   {
@@ -1140,7 +1140,7 @@ const menu = [
     title: "veg fried rice",
     category: "biryani",
     price: 300,
-    img: "./item-143.png",
+    img: "./item-143.jpeg",
     desc: `Flavorful fried rice made with assorted vegetables, aromatic spices, and a touch of soy sauce.`,
   },
   {
@@ -1148,7 +1148,7 @@ const menu = [
     title: "paneer fried rice",
     category: "biryani",
     price: 300,
-    img: "./item-144.png",
+    img: "./item-144.jpeg",
     desc: `Delicious fried rice made with paneer (cottage cheese), mixed vegetables, and aromatic spices.`,
   },
 
