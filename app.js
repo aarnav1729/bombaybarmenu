@@ -979,7 +979,7 @@ const menu = [
     id: 123,
     title: "mutton dum biryani",
     category: "biryani",
-    price: 3w0,
+    price: 300,
     img: "./item-123.jpeg",
     desc: `Traditional dum-style biryani made with tender mutton, fragrant rice, and aromatic spices. (Small- 230)`,
   },
