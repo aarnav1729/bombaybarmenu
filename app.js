@@ -5,7 +5,7 @@ const menu = [
     category: "veg",
     price: 260,
     img: "./item-1.jpeg",
-    desc: `Spicy and crispy paneer (cottage cheese) dish, flavored with aromatic spices and served as an appetizer. (Small- 190)`,
+    desc: `Spicy and crispy paneer dish, flavored with aromatic spices and served as an appetizer. (Small- 190)`,
   },
   {
     id: 2,
@@ -13,7 +13,7 @@ const menu = [
     category: "veg",
     price: 260,
     img: "./item-2.jpeg",
-    desc: `Indo-Chinese dish made with paneer (cottage cheese), bell peppers, and onions, tossed in a spicy and tangy sauce. (Small- 190)`,
+    desc: `Indo-Chinese dish made with paneer, bell peppers, and onions, tossed in a spicy and tangy sauce. (Small- 190)`,
   },
   {
     id: 3,
@@ -53,7 +53,7 @@ const menu = [
     category: "veg",
     price: 260,
     img: "./item-7.jpeg",
-    desc: `Indo-Chinese dish made with paneer (cottage cheese) cooked in a tangy and flavorful sauce. (Small- 190)`,
+    desc: `Indo-Chinese dish made with paneer cooked in a tangy and flavorful sauce. (Small- 190)`,
   },
   {
     id: 8,
@@ -77,7 +77,7 @@ const menu = [
     category: "veg",
     price: 260,
     img: "./item-10.jpeg",
-    desc: `Delicious appetizer made with a filling of paneer (cottage cheese) and mixed vegetables wrapped in a spring roll pastry. (Small- 190)`,
+    desc: `Delicious appetizer made with a filling of paneer and mixed vegetables wrapped in a spring roll pastry. (Small- 190)`,
   },
   {
     id: 11,
@@ -597,7 +597,7 @@ const menu = [
     category: "tandoori",
     price: 240,
     img: "./item-75.jpeg",
-    desc: `Juicy and marinated paneer (cottage cheese) cubes grilled to perfection. (Small- 170)`,
+    desc: `Juicy and marinated paneer cubes grilled to perfection. (Small- 170)`,
   },
   {
     id: 76,
@@ -813,7 +813,7 @@ const menu = [
     category: "roti",
     price: 120,
     img: "./item-102.jpeg",
-    desc: `Paratha stuffed with a flavorful cottage cheese (paneer) filling.`,
+    desc: `Paratha stuffed with a flavorful paneer filling.`,
   },
   {
     id: 103,
@@ -829,7 +829,7 @@ const menu = [
     category: "veg",
     price: 280,
     img: "./item-104.jpeg",
-    desc: `Soft and creamy paneer (cottage cheese) cooked in a rich and buttery tomato-based gravy. (Small- 190)`,
+    desc: `Soft and creamy paneer cooked in a rich and buttery tomato-based gravy. (Small- 190)`,
   },
   {
     id: 105,
@@ -837,7 +837,7 @@ const menu = [
     category: "veg",
     price: 280,
     img: "./item-105.jpeg",
-    desc: `Paneer (cottage cheese) cooked with spinach in a flavorful and nutritious gravy. (Small- 190)`,
+    desc: `Paneer cooked with spinach in a flavorful and nutritious gravy. (Small- 190)`,
   },
   {
     id: 106,
@@ -845,7 +845,7 @@ const menu = [
     category: "veg",
     price: 280,
     img: "./item-106.jpeg",
-    desc: `Grilled paneer (cottage cheese) cubes cooked in a creamy and spicy tomato-based sauce. (Small- 190)`,
+    desc: `Grilled paneer cubes cooked in a creamy and spicy tomato-based sauce. (Small- 190)`,
   },
   {
     id: 107,
@@ -853,7 +853,7 @@ const menu = [
     category: "veg",
     price: 280,
     img: "./item-107.jpeg",
-    desc: `Paneer (cottage cheese) cooked with ginger and spices for a delightful flavor. (Small- 190)`,
+    desc: `Paneer cooked with ginger and spices for a delightful flavor. (Small- 190)`,
   },
   {
     id: 108,
@@ -861,7 +861,7 @@ const menu = [
     category: "veg",
     price: 280,
     img: "./item-108.jpeg",
-    desc: `Paneer (cottage cheese) cooked with cashews and a blend of aromatic spices. (Small- 190)`,
+    desc: `Paneer cooked with cashews and a blend of aromatic spices. (Small- 190)`,
   },
   {
     id: 109,
@@ -909,7 +909,7 @@ const menu = [
     category: "veg",
     price: 210,
     img: "./item-114.jpeg",
-    desc: `Scrambled paneer (cottage cheese) cooked with onions, tomatoes, and spices.`,
+    desc: `Scrambled paneer cooked with onions, tomatoes, and spices.`,
   },
   {
     id: 115,
@@ -1149,7 +1149,7 @@ const menu = [
     category: "biryani",
     price: 280,
     img: "./item-144.jpeg",
-    desc: `Delicious fried rice made with paneer (cottage cheese), mixed vegetables, and aromatic spices. (Small- 210)`,
+    desc: `Delicious fried rice made with paneer, mixed vegetables, and aromatic spices. (Small- 210)`,
   },
 
 ];
