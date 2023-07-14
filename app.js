@@ -3,23 +3,23 @@ const menu = [
     id: 1,
     title: "paneer 65",
     category: "veg",
-    price: 260,
+    price: 240,
     img: "./item-1.jpeg",
-    desc: `Spicy and crispy paneer dish, flavored with aromatic spices and served as an appetizer. (Small- 190)`,
+    desc: `Spicy and crispy paneer (cottage cheese) dish, flavored with aromatic spices and served as an appetizer. (Small- 160)`,
   },
   {
     id: 2,
     title: "chilly paneer",
     category: "veg",
-    price: 260,
+    price: 160,
     img: "./item-2.jpeg",
-    desc: `Indo-Chinese dish made with paneer, bell peppers, and onions, tossed in a spicy and tangy sauce. (Small- 190)`,
+    desc: `Indo-Chinese dish made with paneer (cottage cheese), bell peppers, and onions, tossed in a spicy and tangy sauce.`,
   },
   {
     id: 3,
     title: "veg 65",
     category: "veg",
-    price: 240,
+    price: 160,
     img: "./item-3.jpeg",
     desc: `Spicy and crispy vegetarian dish inspired by the famous Chicken 65, made with a flavorful blend of spices. (Small- 170)`,
   },
@@ -53,7 +53,7 @@ const menu = [
     category: "veg",
     price: 260,
     img: "./item-7.jpeg",
-    desc: `Indo-Chinese dish made with paneer cooked in a tangy and flavorful sauce. (Small- 190)`,
+    desc: `Indo-Chinese dish made with paneer (cottage cheese) cooked in a tangy and flavorful sauce. (Small- 190)`,
   },
   {
     id: 8,
@@ -77,7 +77,7 @@ const menu = [
     category: "veg",
     price: 260,
     img: "./item-10.jpeg",
-    desc: `Delicious appetizer made with a filling of paneer and mixed vegetables wrapped in a spring roll pastry. (Small- 190)`,
+    desc: `Delicious appetizer made with a filling of paneer (cottage cheese) and mixed vegetables wrapped in a spring roll pastry. (Small- 190)`,
   },
   {
     id: 11,
@@ -597,7 +597,7 @@ const menu = [
     category: "tandoori",
     price: 240,
     img: "./item-75.jpeg",
-    desc: `Juicy and marinated paneer cubes grilled to perfection. (Small- 170)`,
+    desc: `Juicy and marinated paneer (cottage cheese) cubes grilled to perfection. (Small- 170)`,
   },
   {
     id: 76,
@@ -795,7 +795,7 @@ const menu = [
     id: 100,
     title: "gobi paratha",
     category: "roti",
-    price: 100,
+    price: 50,
     img: "./item-100.jpeg",
     desc: `Paratha filled with a delicious spiced cauliflower (gobi) mixture.`,
   },
@@ -803,7 +803,7 @@ const menu = [
     id: 101,
     title: "pudina paratha",
     category: "roti",
-    price: 100,
+    price: 50,
     img: "./item-101.jpeg",
     desc: `Paratha flavored with fresh mint leaves for a refreshing taste.`,
   },
@@ -811,15 +811,15 @@ const menu = [
     id: 102,
     title: "paneer paratha",
     category: "roti",
-    price: 120,
+    price: 50,
     img: "./item-102.jpeg",
-    desc: `Paratha stuffed with a flavorful paneer filling.`,
+    desc: `Paratha stuffed with a flavorful cottage cheese (paneer) filling.`,
   },
   {
     id: 103,
     title: "kheema naan",
     category: "roti",
-    price: 180,
+    price: 50,
     img: "./item-103.jpeg",
     desc: `Naan bread filled with a delicious minced meat (kheema) mixture.`,
   },
@@ -827,97 +827,97 @@ const menu = [
     id: 104,
     title: "paneer butter masala",
     category: "veg",
-    price: 280,
+    price: 200,
     img: "./item-104.jpeg",
-    desc: `Soft and creamy paneer cooked in a rich and buttery tomato-based gravy. (Small- 190)`,
+    desc: `Soft and creamy paneer (cottage cheese) cooked in a rich and buttery tomato-based gravy.`,
   },
   {
     id: 105,
     title: "palak paneer",
     category: "veg",
-    price: 280,
+    price: 200,
     img: "./item-105.jpeg",
-    desc: `Paneer cooked with spinach in a flavorful and nutritious gravy. (Small- 190)`,
+    desc: `Paneer (cottage cheese) cooked with spinach in a flavorful and nutritious gravy.`,
   },
   {
     id: 106,
     title: "paneer tikka masala",
     category: "veg",
-    price: 280,
+    price: 200,
     img: "./item-106.jpeg",
-    desc: `Grilled paneer cubes cooked in a creamy and spicy tomato-based sauce. (Small- 190)`,
+    desc: `Grilled paneer (cottage cheese) cubes cooked in a creamy and spicy tomato-based sauce.`,
   },
   {
     id: 107,
     title: "ginger paneer",
     category: "veg",
-    price: 280,
+    price: 200,
     img: "./item-107.jpeg",
-    desc: `Paneer cooked with ginger and spices for a delightful flavor. (Small- 190)`,
+    desc: `Paneer (cottage cheese) cooked with ginger and spices for a delightful flavor.`,
   },
   {
     id: 108,
     title: "kaju paneer",
     category: "veg",
-    price: 280,
+    price: 200,
     img: "./item-108.jpeg",
-    desc: `Paneer cooked with cashews and a blend of aromatic spices. (Small- 190)`,
+    desc: `Paneer (cottage cheese) cooked with cashews and a blend of aromatic spices.`,
   },
   {
     id: 109,
     title: "veg malai kofta",
     category: "veg",
-    price: 280,
+    price: 200,
     img: "./item-109.jpeg",
-    desc: `Soft and creamy vegetable dumplings served in a rich and creamy gravy. (Small- 190)`,
+    desc: `Soft and creamy vegetable dumplings served in a rich and creamy gravy.`,
   },
   {
     id: 110,
     title: "mixed veg curry",
     category: "veg",
-    price: 220,
+    price: 200,
     img: "./item-110.jpeg",
-    desc: `Assorted vegetables cooked in a flavorful and spiced curry sauce. (Small- 170)`,
+    desc: `Assorted vegetables cooked in a flavorful and spiced curry sauce.`,
   },
   {
     id: 111,
     title: "aloo mutter",
     category: "veg",
-    price: 220,
+    price: 200,
     img: "./item-111.jpeg",
-    desc: `A classic Indian dish made with potatoes (aloo) and peas (mutter) in a spiced gravy. (Small- 170)`,
+    desc: `A classic Indian dish made with potatoes (aloo) and peas (mutter) in a spiced gravy.`,
   },
   {
     id: 112,
     title: "ginger veg",
     category: "veg",
-    price: 280,
+    price: 200,
     img: "./item-112.jpeg",
-    desc: `Mixed vegetables cooked with ginger and spices for a flavorful and aromatic dish. (Small- 190)`,
+    desc: `Mixed vegetables cooked with ginger and spices for a flavorful and aromatic dish.`,
   },
   {
     id: 113,
     title: "gobi masala",
     category: "veg",
-    price: 220,
+    price: 200,
     img: "./item-113.jpeg",
-    desc: `Cauliflower florets cooked in a spicy and flavorful masala sauce. (Small- 170)`,
+    desc: `Cauliflower florets cooked in a spicy and flavorful masala sauce.`,
   },
   {
     id: 114,
     title: "paneer burjee",
     category: "veg",
-    price: 210,
+    price: 200,
     img: "./item-114.jpeg",
-    desc: `Scrambled paneer cooked with onions, tomatoes, and spices.`,
+    desc: `Scrambled paneer (cottage cheese) cooked with onions, tomatoes, and spices.`,
   },
   {
     id: 115,
     title: "dal makhani",
     category: "veg",
-    price: 220,
+    price: 200,
     img: "./item-115.jpeg",
-    desc: `A rich and creamy lentil dish made with black lentils, kidney beans, and aromatic spices. (Small- 170)`,
+    desc: `A rich and creamy lentil dish made with black lentils, kidney beans, and aromatic spices.`,
   },
   {
     id: 116,
@@ -925,7 +925,7 @@ const menu = [
     category: "veg",
     price: 200,
     img: "./item-116.jpeg",
-    desc: `Tempting and flavorful lentil dish made with lentils, onions, tomatoes, and spices. (Small- 160)`,
+    desc: `Tempting and flavorful lentil dish made with lentils, onions, tomatoes, and spices.`,
   },
   {
     id: 117,
@@ -933,15 +933,15 @@ const menu = [
     category: "veg",
     price: 200,
     img: "./item-117.jpeg",
-    desc: `Tomato stuffed with a delicious filling of spices, vegetables, and paneer. (Small- 160)`,
+    desc: `Tomato stuffed with a delicious filling of spices, vegetables, and paneer.`,
   },
   {
     id: 118,
     title: "aloo palak",
     category: "veg",
-    price: 220,
+    price: 200,
     img: "./item-118.jpeg",
-    desc: `Potatoes (aloo) cooked with spinach (palak) in a flavorful and nutritious gravy. (Small- 170)`,
+    desc: `Potatoes (aloo) cooked with spinach (palak) in a flavorful and nutritious gravy.`,
   },
   {
     id: 119,
@@ -949,13 +949,13 @@ const menu = [
     category: "veg",
     price: 200,
     img: "./item-119.jpeg",
-    desc: `A simple and nutritious dish made with spinach (palak) cooked with mild spices. (Small- 170)`,
+    desc: `A simple and nutritious dish made with spinach (palak) cooked with mild spices.`,
   },
   {
     id: 120,
     title: "mixed raita",
     category: "veg",
-    price: 130,
+    price: 200,
     img: "./item-120.jpeg",
     desc: `Refreshing yogurt-based side dish with a mix of diced vegetables and spices.`,
   },
@@ -963,7 +963,7 @@ const menu = [
     id: 121,
     title: "curd",
     category: "veg",
-    price: 110,
+    price: 200,
     img: "./item-121.jpeg",
     desc: `Plain yogurt, a cooling and nutritious accompaniment to any meal.`,
   },
@@ -971,9 +971,9 @@ const menu = [
     id: 122,
     title: "chicken biryani",
     category: "biryani",
-    price: 310,
+    price: 300,
     img: "./item-122.jpeg",
-    desc: `Aromatic and flavorful rice dish cooked with succulent chicken pieces and fragrant spices. (Small- 220)`,
+    desc: `Aromatic and flavorful rice dish cooked with succulent chicken pieces and fragrant spices.`,
   },
   {
     id: 123,
@@ -981,117 +981,117 @@ const menu = [
     category: "biryani",
     price: 300,
     img: "./item-123.jpeg",
-    desc: `Traditional dum-style biryani made with tender mutton, fragrant rice, and aromatic spices. (Small- 230)`,
+    desc: `Traditional dum-style biryani made with tender mutton, fragrant rice, and aromatic spices.`,
   },
   {
     id: 124,
     title: "special chicken biryani",
     category: "biryani",
-    price: 320,
+    price: 300,
     img: "./item-124.jpeg",
-    desc: `Exquisite and flavorful chicken biryani prepared with special spices and premium ingredients. (Small- 230)`,
+    desc: `Exquisite and flavorful chicken biryani prepared with special spices and premium ingredients.`,
   },
   {
     id: 125,
     title: "chicken tikka biryani",
     category: "biryani",
-    price: 340,
+    price: 300,
     img: "./item-125.jpeg",
-    desc: `Delicious biryani made with marinated and grilled chicken tikka, layered with fragrant rice. (Small- 230)`,
+    desc: `Delicious biryani made with marinated and grilled chicken tikka, layered with fragrant rice.`,
   },
   {
     id: 126,
     title: "special mutton biryani",
     category: "biryani",
-    price: 340,
+    price: 300,
     img: "./item-126.jpeg",
-    desc: `Delectable mutton biryani prepared with special spices, tender meat, and fragrant rice. (Small- 250)`,
+    desc: `Delectable mutton biryani prepared with special spices, tender meat, and fragrant rice.`,
   },
   {
     id: 127,
     title: "kheema biryani",
     category: "biryani",
-    price: 340,
+    price: 300,
     img: "./item-127.jpeg",
-    desc: `Flavorful biryani made with spiced minced meat (kheema) and aromatic rice. (Small- 250)`,
+    desc: `Flavorful biryani made with spiced minced meat (kheema) and aromatic rice.`,
   },
   {
     id: 128,
     title: "prawns biryani",
     category: "biryani",
-    price: 340,
+    price: 300,
     img: "./item-128.jpeg",
-    desc: `Irresistible biryani prepared with succulent prawns, fragrant rice, and aromatic spices. (Small- 250)`,
+    desc: `Irresistible biryani prepared with succulent prawns, fragrant rice, and aromatic spices.`,
   },
   {
     id: 129,
     title: "fish biryani",
     category: "biryani",
-    price: 340,
+    price: 300,
     img: "./item-129.jpeg",
-    desc: `Delicious biryani made with flavorful fish pieces, fragrant rice, and aromatic spices. (Small- 250)`,
+    desc: `Delicious biryani made with flavorful fish pieces, fragrant rice, and aromatic spices.`,
   },
   {
     id: 130,
     title: "egg biryani",
     category: "biryani",
-    price: 260,
+    price: 300,
     img: "./item-130.jpeg",
-    desc: `Scrumptious biryani made with hard-boiled eggs, fragrant rice, and a blend of spices. (Small- 210)`,
+    desc: `Scrumptious biryani made with hard-boiled eggs, fragrant rice, and a blend of spices.`,
   },
   {
     id: 131,
     title: "special fish biryani",
     category: "biryani",
-    price: 360,
+    price: 300,
     img: "./item-131.jpeg",
-    desc: `Exquisite biryani made with special fish pieces, fragrant rice, and a flavorful spice mix. (Small- 270)`,
+    desc: `Exquisite biryani made with special fish pieces, fragrant rice, and a flavorful spice mix.`,
   },
   {
     id: 132,
     title: "mixed fried rice",
     category: "biryani",
-    price: 360,
+    price: 300,
     img: "./item-132.jpeg",
-    desc: `Assorted vegetables and rice stir-fried with spices for a delicious and satisfying meal. (Small- 270)`,
+    desc: `Assorted vegetables and rice stir-fried with spices for a delicious and satisfying meal.`,
   },
   {
     id: 133,
     title: "chicken fried rice",
     category: "biryani",
-    price: 310,
+    price: 300,
     img: "./item-133.jpeg",
-    desc: `Classic fried rice made with tender chicken pieces, mixed vegetables, and aromatic spices. (Small- 220)`,
+    desc: `Classic fried rice made with tender chicken pieces, mixed vegetables, and aromatic spices.`,
   },
   {
     id: 134,
     title: "paneer tikka biryani",
     category: "biryani",
-    price: 280,
+    price: 300,
     img: "./item-134.jpeg",
-    desc: `Flavorful biryani made with marinated paneer tikka, fragrant rice, and a blend of spices. (Small- 210)`,
+    desc: `Flavorful biryani made with marinated paneer tikka, fragrant rice, and a blend of spices.`,
   },
   {
     id: 135,
     title: "veg biryani",
     category: "biryani",
-    price: 260,
+    price: 300,
     img: "./item-135.jpeg",
-    desc: `Delicious biryani made with assorted vegetables, fragrant rice, and a blend of aromatic spices. (Small- 200)`,
+    desc: `Delicious biryani made with assorted vegetables, fragrant rice, and a blend of aromatic spices.`,
   },
   {
     id: 136,
     title: "veg pulao",
     category: "biryani",
-    price: 260,
+    price: 300,
     img: "./item-136.jpeg",
-    desc: `Flavorful rice dish cooked with a mix of vegetables, fragrant spices, and aromatic herbs. (Small- 200)`,
+    desc: `Flavorful rice dish cooked with a mix of vegetables, fragrant spices, and aromatic herbs.`,
   },
   {
     id: 137,
     title: "biryani rice",
     category: "biryani",
-    price: 200,
+    price: 300,
     img: "./item-137.jpeg",
     desc: `Fragrant and long-grain rice used as the base for various biryani dishes.`,
   },
@@ -1099,7 +1099,7 @@ const menu = [
     id: 138,
     title: "jeera rice",
     category: "biryani",
-    price: 180,
+    price: 300,
     img: "./item-138.jpeg",
     desc: `Basmati rice cooked with cumin seeds, giving it a distinct and aromatic flavor.`,
   },
@@ -1107,7 +1107,7 @@ const menu = [
     id: 139,
     title: "palak rice",
     category: "biryani",
-    price: 200,
+    price: 300,
     img: "./item-139.jpeg",
     desc: `Rice cooked with spinach (palak), resulting in a vibrant and nutritious dish.`,
   },
@@ -1115,7 +1115,7 @@ const menu = [
     id: 140,
     title: "dal rice",
     category: "biryani",
-    price: 200,
+    price: 300,
     img: "./item-140.jpeg",
     desc: `Combination of lentils (dal) and rice, a comforting and wholesome meal.`,
   },
@@ -1123,7 +1123,7 @@ const menu = [
     id: 141,
     title: "curd rice",
     category: "biryani",
-    price: 170,
+    price: 300,
     img: "./item-141.jpeg",
     desc: `Rice mixed with yogurt (curd), tempered with spices and often accompanied by pickles.`,
   },
@@ -1131,7 +1131,7 @@ const menu = [
     id: 142,
     title: "steamed rice",
     category: "biryani",
-    price: 160,
+    price: 300,
     img: "./item-142.jpeg",
     desc: `Simple and plain boiled rice, a versatile accompaniment to many dishes.`,
   },
@@ -1139,86 +1139,177 @@ const menu = [
     id: 143,
     title: "veg fried rice",
     category: "biryani",
-    price: 260,
+    price: 300,
     img: "./item-143.jpeg",
-    desc: `Flavorful fried rice made with assorted vegetables, aromatic spices, and a touch of soy sauce. (Small- 200)`,
+    desc: `Flavorful fried rice made with assorted vegetables, aromatic spices, and a touch of soy sauce.`,
   },
   {
     id: 144,
     title: "paneer fried rice",
     category: "biryani",
-    price: 280,
+    price: 300,
     img: "./item-144.jpeg",
-    desc: `Delicious fried rice made with paneer, mixed vegetables, and aromatic spices. (Small- 210)`,
+    desc: `Delicious fried rice made with paneer (cottage cheese), mixed vegetables, and aromatic spices.`,
   },
-
 ];
 
 const sectionCenter = document.querySelector(".section-center");
 const container = document.querySelector(".btn-container");
+const whatsappButton = document.querySelector(".whatsapp-button");
 
-// load items 
+// Selected items
+let selectedItems = [];
+
+// Load items 
 window.addEventListener("DOMContentLoaded", function() {
   displayMenuItems(menu);
   displayMenuButtons();
 });
 
-
-function displayMenuItems(menuItems){
-  let displayMenu = menuItems.map(function (item) {
-    // console.log(item);
+function displayMenuItems(menuItems) {
+  let displayMenu = menuItems.map(function(item) {
+    const selected = selectedItems.find((selectedItem) => selectedItem.id === item.id);
+    const quantity = selected ? selected.quantity : 0;
 
     return `<article class="menu-item">
-    <img src=${item.img} class="photo" alt=${item.title}>
-    <div class="item-info">
-      <header>
-        <h4>${item.title}</h4>
-        <h4 class="price">${item.price}</h4>
-      </header>
-      <p class="item-text">
-        ${item.desc}
-      </p>
-    </div>
-  </article>`;
+      <img src=${item.img} class="photo" alt=${item.title}>
+      <div class="item-info">
+        <header>
+          <h4>${item.title}</h4>
+          <h4 class="price">₹${item.price}</h4>
+        </header>
+        <p class="item-text">
+          ${item.desc}
+        </p>
+        <div class="quantity">
+          <button class="quantity-btn minus" data-id=${item.id}>-</button>
+          <span class="quantity-value">${quantity}</span>
+          <button class="quantity-btn plus" data-id=${item.id}>+</button>
+        </div>
+        <button class="add-to-cart-btn" data-id=${item.id}>Add to Cart</button>
+      </div>
+    </article>`;
   });
   displayMenu = displayMenu.join("");
   sectionCenter.innerHTML = displayMenu;
-} 
+
+  const addToCartBtns = document.querySelectorAll(".add-to-cart-btn");
+  addToCartBtns.forEach(function(btn) {
+    btn.addEventListener("click", function(e) {
+      const itemId = parseInt(e.currentTarget.dataset.id);
+      const selectedItem = menu.find(function(item) {
+        return item.id === itemId;
+      });
+
+      if (selectedItem) {
+        const existingItem = selectedItems.find((item) => item.id === selectedItem.id);
+        if (existingItem) {
+          existingItem.quantity++;
+        } else {
+          selectedItems.push({ ...selectedItem, quantity: 1 });
+        }
+      }
+      updateQuantityDisplay(itemId);
+    });
+  });
+
+  const quantityMinusBtns = document.querySelectorAll(".quantity-btn.minus");
+  quantityMinusBtns.forEach(function(btn) {
+    btn.addEventListener("click", function(e) {
+      const itemId = parseInt(e.currentTarget.dataset.id);
+      const selectedItem = selectedItems.find(function(item) {
+        return item.id === itemId;
+      });
+
+      if (selectedItem && selectedItem.quantity > 0) {
+        selectedItem.quantity--;
+        updateQuantityDisplay(itemId);
+      }
+    });
+  });
+
+  const quantityPlusBtns = document.querySelectorAll(".quantity-btn.plus");
+  quantityPlusBtns.forEach(function(btn) {
+    btn.addEventListener("click", function(e) {
+      const itemId = parseInt(e.currentTarget.dataset.id);
+      const selectedItem = selectedItems.find(function(item) {
+        return item.id === itemId;
+      });
+
+      if (selectedItem) {
+        selectedItem.quantity++;
+        updateQuantityDisplay(itemId);
+      }
+    });
+  });
+}
 
 function displayMenuButtons() {
-  const categories = menu.reduce(function (values, item) {
-    if(!values.includes(item.category)) {
+  const categories = menu.reduce(function(values, item) {
+    if (!values.includes(item.category)) {
       values.push(item.category);
     }
     return values;
   },
   ['all']
   );
-const categoryBtns = categories.map(function(category) {
-   return `<button class="filter-btn" type="button"
-    data-id=${category}>
-            ${category}
-          </button>`
-}).join("");  
-container.innerHTML = categoryBtns;
-const filterBtns = container.querySelectorAll(".filter-btn");
-// filter items 
-filterBtns.forEach(function (btn) {
-  btn.addEventListener("click", function(e) {
+  const categoryBtns = categories.map(function(category) {
+    return `<button class="filter-btn" type="button"
+      data-id=${category}>
+              ${category}
+            </button>`
+  }).join("");
+  container.innerHTML = categoryBtns;
 
-    const category = e.currentTarget.dataset.id;
-    const menuCategory = menu.filter(function (menuItem) {
-      // console.log(menuItems.category);
-      if(menuItem.category === category){
-        return menuItem;
+  const filterBtns = container.querySelectorAll(".filter-btn");
+  filterBtns.forEach(function(btn) {
+    btn.addEventListener("click", function(e) {
+      const category = e.currentTarget.dataset.id;
+      const menuCategory = menu.filter(function(menuItem) {
+        if (menuItem.category === category) {
+          return menuItem;
+        }
+      });
+
+      if (category === "all") {
+        displayMenuItems(menu);
+      } 
+      else {
+        displayMenuItems(menuCategory);
       }
     });
-    //console.log(menuCategory);
-    if(category === "all") {
-      displayMenuItems(menu);
-    }else {
-      displayMenuItems(menuCategory);
-    }
   });
-});
 }
+
+function updateQuantityDisplay(itemId) {
+  const quantityValues = document.querySelectorAll(".quantity-value");
+  const selectedItem = selectedItems.find(function(item) {
+    return item.id === itemId;
+  });
+
+  if (selectedItem) {
+    const quantityValue = Array.from(quantityValues).find(function(el) {
+      return parseInt(el.parentElement.querySelector(".quantity-btn").dataset.id) === itemId;
+    });
+
+    if (quantityValue) {
+      quantityValue.textContent = selectedItem.quantity;
+    }
+  }
+}
+
+whatsappButton.addEventListener("click", function() {
+  if (selectedItems.length > 0) {
+    const dishesText = selectedItems.map(function(item) {
+      return `${item.title} - ₹${item.price} x ${item.quantity}`;
+    }).join("\n");
+
+    const message = encodeURIComponent(`My order:\n${dishesText}`);
+    const phoneNumber = "+919849015550"; 
+
+    const whatsappURL = `https://api.whatsapp.com/send?phone=${phoneNumber}&text=${message}`;
+    window.open(whatsappURL, "_blank");
+  } else {
+    alert("Please select items to add to the cart.");
+  }
+});
