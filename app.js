@@ -1298,17 +1298,26 @@ function updateQuantityDisplay(itemId) {
   }
 }
 
-whatsappButton.addEventListener("click", function() {
+// Next Step Button
+const nextStepButton = document.querySelector(".next-step-button");
+nextStepButton.addEventListener("click", function () {
   if (selectedItems.length > 0) {
-    const dishesText = selectedItems.map(function(item) {
-      return `${item.title} - ₹${item.price} x ${item.quantity}`;
-    }).join("\n");
+    // Build the order summary
+    let orderSummary = "Order Summary:\n\n";
+    let totalPrice = 0;
+    selectedItems.forEach(function (item) {
+      const itemPrice = item.price * item.quantity;
+      totalPrice += itemPrice;
+      orderSummary += `${item.title} - ₹${item.price} x ${item.quantity} = ₹${itemPrice}\n`;
+    });
 
-    const message = encodeURIComponent(`My order:\n${dishesText}`);
-    const phoneNumber = "+919849015550"; 
+    orderSummary += `\nTotal Price: ₹${totalPrice}`;
 
-    const whatsappURL = `https://api.whatsapp.com/send?phone=${phoneNumber}&text=${message}`;
-    window.open(whatsappURL, "_blank");
+    // Store the order summary in localStorage
+    localStorage.setItem("orderSummary", orderSummary);
+
+    // Redirect to the order page
+    window.location.href = "order.html";
   } else {
     alert("Please select items to add to the cart.");
   }
