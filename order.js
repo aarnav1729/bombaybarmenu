@@ -53,13 +53,6 @@ window.addEventListener("DOMContentLoaded", function () {
       const message = encodeURIComponent(orderMessage);
       const whatsappURL = `https://api.whatsapp.com/send?phone=${phoneNumber}&text=${message}`;
       window.open(whatsappURL, "_blank");
-  
-      // Send email with order details
-      const emailSubject = "New Order";
-      const emailBody = orderMessage;
-      const adminEmail = "tasteofbombaybar@gmail.com";
-      const emailURL = `mailto:${adminEmail}?subject=${encodeURIComponent(emailSubject)}&body=${encodeURIComponent(emailBody)}`;
-      window.open(emailURL);
     });
   
     // Download receipt button click event
