@@ -49,7 +49,7 @@ window.addEventListener("DOMContentLoaded", function () {
       }
   
       // Send the order
-      const phoneNumber = "+919849015550";
+      const phoneNumber = "+919573501100";
       const message = encodeURIComponent(orderMessage);
       const whatsappURL = `https://api.whatsapp.com/send?phone=${phoneNumber}&text=${message}`;
       window.open(whatsappURL, "_blank");
