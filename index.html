@@ -1,58 +1,47 @@
 <!DOCTYPE html>
 <html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Bombay Box</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css">
-    <link rel="stylesheet" href="styles.css">
-  </head>
-  
-  <body>
-    <section class="menu">
+  <title>Bombay Box</title>
 
-      <div class="title">
-        <h2>Bombay Box: Express&#11088;Service<br>Takeaway & Delivery</h2>
-        <div class="underline"></div>
-      </div>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css">
 
-      <div class="btn-container">
-        <button class="filter-btn active" type="button" data-id="all" >all</button>
-        <button class="filter-btn" data-id="chicken" type="button">chicken</button>
-        <button class="filter-btn" data-id="veg" type="button">veg</button>
-        <button class="filter-btn" data-id="mutton" type="button">mutton</button>
-        <button class="filter-btn" data-id="seafood" type="button">seafood</button>
-        <button class="filter-btn" data-id="tandoori" type="button">tandoori</button>
-        <button class="filter-btn" data-id="egg" type="button">egg</button>
-        <button class="filter-btn" data-id="roti" type="button">roti</button>
-        <button class="filter-btn" data-id="biryani" type="button">biryani</button>
-      </div>
+  <link rel="stylesheet" href="styles.css">
+</head>
 
-      <div class="section-center">
+<body>
 
-        <article class="menu-item">
-          <img src="/menu-item.jpeg" class="photo" alt="menu item" loading="lazy">
+  <section class="menu">
 
-          <div class="item-info">
-            
-            <header>
-              <h4>Chicken 65</h4>
-              <h4 class="price">$15</h4>
-            </header>
-            <p class="item-text">
-              Food
-            </p>
-          </div>
+    <div class="title">
+      <h2>Bombay Box: Express&#11088;Service<br>Takeaway & Delivery</h2>
+      
+      <div class="underline"></div>
+    </div>
 
-        </article>
-      </div>
-    </section>
+    <div class="btn-container">
+      <button class="filter-btn active" type="button" data-id="all" >all</button>
+      <button class="filter-btn" data-id="chicken" type="button">chicken</button>
+      <button class="filter-btn" data-id="veg" type="button">veg</button>
+      <button class="filter-btn" data-id="mutton" type="button">mutton</button>
+      <button class="filter-btn" data-id="seafood" type="button">seafood</button>
+      <button class="filter-btn" data-id="tandoori" type="button">tandoori</button>
+      <button class="filter-btn" data-id="egg" type="button">egg</button>
+      <button class="filter-btn" data-id="roti" type="button">roti</button>
+      <button class="filter-btn" data-id="biryani" type="button">biryani</button>
+    </div>
 
-    <a href="javascript:void(0);" class="whatsapp-button">
-      <i class="fab fa-whatsapp"></i>
+    <div class="section-center">
+      <!-- Menu items go here -->
+    </div>
+    
+    <a href="order.html" class="next-step-button">
+      <i class="fas fa-arrow-right"></i>
     </a>
+  </section>
 
-    <script src="./app.js"></script>
-  </body>
+  <script src="./app.js"></script>
+</body>
 </html>
