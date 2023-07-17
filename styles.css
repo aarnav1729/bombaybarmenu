@@ -1,6 +1,7 @@
 @import url("https://fonts.googleapis.com/css?family=Open+Sans|Roboto:400,700&display=swap");
 
 :root {
+  /* Colors */
   --clr-primary-1: hsl(205, 86%, 17%);
   --clr-primary-2: hsl(205, 77%, 27%);
   --clr-primary-3: hsl(205, 72%, 37%);
@@ -28,8 +29,12 @@
   --clr-green-light: hsl(125, 71%, 66%);
   --clr-gold: #c59d5f;
   --clr-black: #222;
+
+  /* Fonts */
   --ff-primary: "Roboto", sans-serif;
   --ff-secondary: "Open Sans", sans-serif;
+
+  /* Other */
   --transition: all 0.3s linear;
   --spacing: 0.25rem;
   --radius: 0.5rem;
@@ -365,6 +370,24 @@ main {
   margin-right: 0.5rem;
 }
 
+#contactInput {
+  margin-bottom: 1.5rem;
+}
+
+#contactInput label {
+  display: block;
+  margin-bottom: 0.5rem;
+  font-weight: bold;
+}
+
+#contactInput input[type="text"] {
+  width: 100%;
+  padding: 0.5rem;
+  border: 1px solid var(--clr-grey-5);
+  border-radius: var(--radius);
+  margin-bottom: 1rem;
+}
+
 #addressInput {
   display: none;
   margin-top: 1rem;
@@ -455,6 +478,10 @@ main {
   background-color: var(--clr-primary-6);
 }
 
+.hidden {
+  display: none;
+}
+
 @media screen and (min-width: 768px) {
   .menu-item {
     grid-template-columns: 225px 1fr;
@@ -466,12 +493,13 @@ main {
     height: 175px;
   }
 }
+
 @media screen and (min-width: 1200px) {
   .section-center {
     width: 95vw;
     grid-template-columns: 1fr 1fr;
   }
-  
+
   .photo {
     height: 150px;
   }
